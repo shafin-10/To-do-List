@@ -1,0 +1,80 @@
+.todo{
+    background-color: #FFFBDE;
+    height: 80vh;
+    width: 400px; 
+}
+.heading{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.list{
+   display: flex;
+   flex-direction: column;
+}
+li{
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #096B68; 
+    font-weight: bold;
+}
+
+#add-btn {
+    background-color: #096B68;
+    border-radius: 50px;
+    padding: 5px;
+    width: 80px;
+    border: 1px solid rgba(23, 96, 23, 0.621); 
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.remove-btn {
+    background-color: red;
+    border-radius: 50px;
+    padding: 3px;
+    width: 60px;
+    border: 1px solid rgba(104, 12, 12, 0.491); 
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    margin-left: 200px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    color: #096B68;;
+}
+#text-box{
+    padding: 7px;
+    width: 200px;
+    border-radius: 50px;
+    border: solid #90D1CA;
+    font-family: 'Times New Roman', Times, serif;
+}
+::placeholder{
+    color:#90D1CA;
+}
+.checkbox-container{
+  width: 20px;
+  height: 20px;
+  accent-color: #129990;
+  border-color: #096B68;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
