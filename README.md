@@ -14,7 +14,9 @@ This is a basic To-Do List application built using HTML ,  CSS , and  JavaScript
 📁 Project Structure
 
 ├── index.html      # Main HTML file
+
 ├── style.css       # CSS styling
+
 └── script.js       # JavaScript functionality
 
 💻 How to Run
